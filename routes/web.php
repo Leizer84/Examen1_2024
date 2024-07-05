@@ -21,8 +21,8 @@ Route::get('/directorio/buscar', [DirectoriosController::class, 'buscarDirectori
 
 
 //Lleva a la vista de eliminar
-Route::get('/directorio/eliminar/{id}', [DirectoriosController::class, 'eliminarDirectorio'])->name('Directorio.eliminar');
-Route::get('/directorio/destroy/{id}', [DirectoriosController::class, 'destroy'])->name('destroy');
+Route::get('/directorio/eliminar', [DirectoriosController::class, 'eliminarDirectorio'])->name('Directorio.eliminar');
+//Route::get('/directorio/destroy/{id}', [DirectoriosController::class, 'destroy'])->name('destroy');
 
 //CONTACTOS 
 

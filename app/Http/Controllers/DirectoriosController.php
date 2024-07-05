@@ -40,10 +40,10 @@ class DirectoriosController extends Controller
         return view('eliminar', compact('directorioEliminar'));
     }
 
-    public function destroy($id){
+    /*public function destroy($id){
         $directorioEliminar = Directorio::find($id);
         $directorioEliminar->delete();
         return redirect('/directorio/mostrar');
-    }
+    }*/
 
 }
